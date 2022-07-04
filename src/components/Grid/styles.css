@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+}
+
+.text {
+  padding: 2rem 0;
+}
+
+.button {
+  display: block;
+  position: relative;
+  margin: 0.5em 0;
+	padding: .8em 2.2em;
+	cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 800;
+	letter-spacing: 0.04em;
+  font-size: 1em;
+  color: white;
+  background: var(--color-primary);
+  border-radius: .4em;
+  border: none;
+  perspective: 500px;
+	transform-style: preserve-3d;
+  width: 100%;
+}
+.button:hover {
+	transform-style: preserve-3d;
+  background-color: #09c3f1;
+	transition: background .3s 0.1s;
+}
